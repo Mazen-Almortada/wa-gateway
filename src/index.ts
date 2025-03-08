@@ -76,5 +76,6 @@ if (env.WEBHOOK_BASE_URL) {
   });
 }
 // End Implement Webhook
+whastapp.setCredentialsDir("credentials");
 
 whastapp.loadSessionsFromStorage();
